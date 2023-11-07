@@ -1,12 +1,162 @@
 body{
     background-image: url(bg.png);
     background-color: black;
+    padding-left:5%;
+    padding-right:5%;
+}
+header{
+    height: 94px;
+    width: 100%;
+}
+footer{
+    margin-top: 3%;
+}
+#logodiv{
+    text-align: center;
+    display: inline-block;
 }
 #logo{
-    color: #E15A3D;
-    font-size: 45px;
-    font-family: Code Next;
-    font-weight: 800;
+    display: inline-block;
+    width:98px;
+    height:62px;
+}
+#textlogo{
+    color: white; 
+    font-size: 30px; 
+    font-family: Code Next; 
+    font-weight: 800; 
     word-wrap: break-word;
     display: inline-block;
+    margin:16px;
+    vertical-align: top;
+}
+#contact{
+    color: white;
+    font-size: 18px;
+    font-family: Code Next-Trial;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+#h{
+    color: white; 
+    font-size: 72px; 
+    font-family: Code Next; 
+    font-weight: 800; 
+    word-wrap: break-word;
+    margin:3%;
+}
+#i{
+    color: white; 
+    font-size: 30px; 
+    font-family: Manrope; 
+    font-weight: 400; 
+    letter-spacing: 0.30px; 
+    word-wrap: break-word;
+    margin:3%;
+}
+#peopleimg{
+    float: left;
+    height: 300px;
+}
+#people{
+    margin:3%;
+}
+#peoplename{
+    color: white; 
+    font-size: 46px; 
+    font-family: Code Next; 
+    font-weight: 800; 
+    word-wrap: break-word;
+}
+#peopledesc{
+    color: white; 
+    font-size: 31px; 
+    font-family: Manrope; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+#hitis{
+    color: white; 
+    font-size: 72px; 
+    font-family: Code Next; 
+    font-weight: 800; 
+    word-wrap: break-word;
+    text-align:center;
+    margin:3%;
+}
+#itis1, #itis4{
+    border-radius: 21px; 
+    border: 13px #E15A3D solid;
+    width: 44%;
+    display:inline-block;
+    margin:1%;
+}
+#itis2, #itis3{
+    border-radius: 21px; 
+    border: 13px #3DC3E1 solid;
+    width: 44%;
+    display:inline-block;
+    margin:1%;
+}
+#pitis{
+    color: white; 
+    font-size: 48px; 
+    font-family: Manrope; 
+    font-weight: 400; 
+    word-wrap: break-word;
+    text-align:center;
+}
+#hits{
+    width: 100%; 
+    color: white; 
+    font-size: 46px; 
+    font-family: Code Next; 
+    font-weight: 800; 
+    word-wrap: break-word;
+    text-align:center;
+}
+#buttonindex{
+    text-align: right;
+    display: inline-block;
+    color: white; 
+    font-size: 20px; 
+    font-family: Code Next; 
+    font-weight: 200; 
+    word-wrap: break-word;
+    float: right;
+}
+#buttonevents{
+    text-align: right;
+    display: inline-block;
+    color: white; 
+    font-size: 20px; 
+    font-family: Code Next; 
+    font-weight: 200; 
+    word-wrap: break-word;
+    float: right;
+    margin:1%;
+}
+.img{
+    width: 25%;
+    border-radius: 10%;
+    margin: 1%;
+    float: right;
+}
+.cource{
+    color:white;
+    margin: 1%;
+    display: inline-block;
+}
+.name{
+    text-align: right;
+    display: inline-block;
+    font-size: 50px; 
+    font-family: Code Next; 
+    font-weight: 700; 
+    word-wrap: break-word;
 }
