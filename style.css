@@ -1,0 +1,12 @@
+body{
+    background-image: url(bg.png);
+    background-color: black;
+}
+#logo{
+    color: #E15A3D;
+    font-size: 45px;
+    font-family: Code Next;
+    font-weight: 800;
+    word-wrap: break-word;
+    display: inline-block;
+}
