@@ -7,6 +7,7 @@ body{
 header{
     height: 94px;
     width: 100%;
+    border-bottom:7px solid#E15A3D;
 }
 footer{
     margin-top: 3%;
@@ -48,7 +49,7 @@ img{
 #h{
     color: white; 
     font-size: 72px; 
-    font-family: Code Next; 
+    font-family: CodeNext; 
     font-weight: 800; 
     word-wrap: break-word;
     margin:3%;
