@@ -42,6 +42,9 @@ a{
     color: white;
     text-decoration: none;
 }
+img{
+    pointer-events: none;
+}
 #h{
     color: white; 
     font-size: 72px; 
@@ -159,4 +162,36 @@ a{
     font-family: Code Next; 
     font-weight: 700; 
     word-wrap: break-word;
+}
+#recomend{
+    color: white;
+    font-size: 30px; 
+    font-family: Code Next; 
+    font-weight: 200; 
+    word-wrap: break-word;
+}
+#recomendation{
+    display: inline-block;
+    font-size: 30px; 
+    font-family: Code Next; 
+    font-weight: 200; 
+    word-wrap: break-word;
+}
+#share{
+    font-size: 20px; 
+    font-family: Code Next; 
+    font-weight: 200; 
+    word-wrap: break-word;
+}
+#butindex{
+    text-align: center;
+    color: white; 
+    font-size: 20px; 
+    font-family: Code Next; 
+    font-weight: 200; 
+    word-wrap: break-word;
+    margin:1%;
+    border: 7px #E15A3D solid;
+    border-radius:21px;
+    padding: 7px;
 }
