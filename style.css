@@ -7,8 +7,13 @@ body{
 header{
     height: 94px;
     width: 100%;
-    border-bottom:7px solid #E15A3D;
+    border-bottom: 7px solid rgb(225, 90, 61);
+    position: fixed;
+    top:0;
+    background-color: black;
 }
+main{
+    margin-top:100px;}
 footer{
     margin-top: 3%;
 }
@@ -125,24 +130,22 @@ img{
     text-align:center;
 }
 #buttonindex{
-    text-align: right;
+    vertical-align: top;
     display: inline-block;
     color: white; 
     font-size: 20px; 
     font-family: Code Next; 
     font-weight: 200; 
     word-wrap: break-word;
-    float: right;
 }
 #buttonevents{
-    text-align: right;
+    vertical-align: top;
     display: inline-block;
     color: white; 
     font-size: 20px; 
     font-family: Code Next; 
     font-weight: 200; 
     word-wrap: break-word;
-    float: right;
     margin:1%;
 }
 .img{
@@ -195,4 +198,12 @@ img{
     border: 7px #E15A3D solid;
     border-radius:21px;
     padding: 7px;
+}
+#reco{
+    color: white; 
+    font-size: 30px; 
+    font-family: Code Next; 
+    font-weight: 500; 
+    text-align: center;
+    margin: 1%;
 }
